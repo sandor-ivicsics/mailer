@@ -54,7 +54,7 @@ public class Mailer {
     
     private void checkFile() {
         if (file == null) {
-            throw new NullPointerException("Reporter was created without file!");
+            throw new NullPointerException("Mailer was created without file!");
         }
     }
     
